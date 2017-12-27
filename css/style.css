@@ -1,0 +1,356 @@
+* {
+	box-sizing:border-box;
+	
+}
+body {
+	margin:0px;
+	padding:0px;
+	background-image: url('../img/bg.png');
+	font: 15px/1 arial, helvetica, sans-serif;
+}
+#top-line {
+	width:100%;
+	height:5px;
+	background-color:#DF0734;
+}
+#head {
+	width:1024px;
+	height:120px;
+	margin:0px auto;
+	border:1px solid #d6d6d6;
+	background-color:white;
+	border-radius:4px;
+	overflow:hidden;
+}
+#nav-search {
+	width:1024px;
+	height:40px;
+	margin:0px auto;
+	margin-top:15px;
+	border-bottom:2px solid #DF0734;
+}
+#logo {
+	width: 300px;
+    height: 49px;
+    float: left;
+    padding: 27px 17px;
+}
+#logo img {
+	width:100%;
+}
+#login-form {
+    padding-top: 13px;
+    width: 202px;
+    height: 120px;
+    float: right;
+}
+#login-form a {
+	//font-size:12px;
+	text-decoration:none;
+	color:#DF0734;
+}
+#username {
+	border-radius:4px;
+	width:180px;
+	background-image: url('../img/user.png');
+	background-repeat:no-repeat;
+	background-position: 6px 5px;
+    padding: 5px 0px 5px 25px;
+	border:1px solid #ccc;
+}
+#password {
+	margin-top:5px;
+	border-radius:4px;
+	width:180px;
+	background-image: url('../img/key.png');
+	background-repeat:no-repeat;
+	background-position: 6px 5px;
+    padding: 5px 0px 5px 25px;
+	border:1px solid #ccc;
+}
+#submit {
+	text-decoration:none;
+	margin-top:5px;
+    color: white;
+    background-color: #DF0734;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+#top-nav {
+	float:left;
+	width:700px;
+	height:40px;
+}
+#top-nav a {
+	float:left;
+	padding: 11px 15px;
+	text-decoration:none;
+	color:black;
+}
+#top-nav .selected {
+	background-color:#DF0734;
+	border-bottom:2px solid #DF0734;
+	color:white;
+	border-radius:3px 3px 0px 0px;
+}
+#top-nav a:hover {
+	border-bottom:2px solid #DF0734;
+}
+#top-search {
+	width:200px;
+	float:right;
+	height:40px;
+}
+#search {
+	border-radius: 4px;
+    width: 180px;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 155px 5px;
+    padding: 5px 0px 5px 5px;
+    border: 1px solid #ccc;
+}
+#content {
+	width:1024px;
+	margin:0px auto;
+	min-height:50px;
+	background-color:white;
+	margin-top:15px;
+	border-radius:4px;
+	border:1px solid #ccc;
+}
+#left-sidebar {
+	padding:5px;
+	float:left;
+	width:224px;
+	min-height:400px;
+}
+#right-content {
+	padding:5px;
+	float:right;
+	width:798px;
+	min-height:400px;
+}
+.clear {
+	clear:both;
+}
+.categories .title {
+	text-align:center;
+	font-weight:bold;
+	padding: 10px 0px;
+	font-size:24px;
+	color:#DF0734;
+}
+.categories a {
+	display:block;
+	padding:10px 10px 10px 29px;
+	background-color:#6D717D;
+	border-bottom:1px solid #828780;
+	color:white;
+	text-decoration:none;
+	background-image: url(../img/list.png);
+    background-repeat: no-repeat;
+    background-position: 11px 12px;
+}
+.categories a:hover{
+	background-color:#999;
+}
+.categories a:first-of-type {
+	border-radius:4px 4px 0px 0px;
+}
+.categories a:last-of-type {
+	border-radius:0px 0px 4px 4px;
+}
+#search1 {
+	padding:5px;
+	margin:5px;
+	border-radius:4px;
+	min-height:30px;
+	background-color:#6D717D;
+	color:white;
+}
+#products .product:hover {
+	background-color:#F2F2F2;
+}
+#products .product {
+	height:300px;
+	margin:5px;
+	border:1px solid #ccc;
+	float:left;
+	width: 187px;
+	border-radius:4px;
+	text-align: center;
+}
+#products .product .title {
+	border-bottom: 1px solid #ccc;
+	font-size:18px;
+	font-weight:bold;
+	color:#595C62;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#products .product .thumbnail {
+	padding:5px;
+	overflow:hidden;
+	height:190px;
+	position:relative;
+}
+
+#products .product .thumbnail img {
+	width:100%;
+}
+#products .product .cena {
+	position:absolute;
+	left:5px;
+	bottom:5px;
+	background-color:#e20030;
+	color:white;
+	font-weight:bold;
+	padding:5px 10px 5px 10px;
+	font-size:16px;
+	border-radius:5px;
+}
+#products .product .bottom-links {
+	padding-top:20px;
+}
+#products .product .bottom-links a {
+	padding:5px 17px 5px 17px;
+	border:1px solid #CCCCCC;
+	text-decoration:none;
+	font-weight:bold;
+}
+.detaljnije {
+	background-color:#E6E6E6;
+	border-radius:5px 0px 0px 5px;
+	color:black;
+}
+.kupi {
+	background-color:#535763;
+	border-radius:0px 5px 5px 0px;
+	color:white;
+}
+.kupi:hover {
+	background-color:#e20030;
+}
+#numeracija {
+	padding:10px;
+	border:1px solid #CCCCCC;
+	margin:5px;
+	border-radius:3px;
+	background-color:#F2F2F2;
+}
+#numeracija .levo {
+	float:left;
+	width:50%;
+}
+#numeracija .desno {
+	text-align:right;
+	float:right;
+	width:50%;
+}
+#numeracija .desno a {
+	text-decoration:none;
+	background-color:#5F636F;
+	color:white;
+	padding:3px 10px 3px 10px;
+	border-radius:5px;
+}
+#numeracija .desno a:hover {
+	background-color:#e20030;
+	font-weight:bold;
+}
+#numeracija .desno a.active {
+	background-color:#e20030;
+}
+#footer {
+	width:1024px;
+	margin:0px auto;
+	text-align:center;
+}
+#search1 input {
+	width:115px;
+}
+#right-content #levi {
+	padding:5px;
+	float:left;
+	width:50%;
+	margin-top:10px;
+}
+#right-content #desni {
+	padding:5px;
+	float:right;
+	width:50%;
+	margin-top:10px;
+}
+h1,h2 {
+	padding:10px;
+	border-left:4px solid #e20030;
+}
+#desni #velika-cena {
+	padding: 20px 23px 20px 23px;
+	background-color:#e20030;
+	border-radius:8px;
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+}
+#dodaj-u-korpu {
+	padding: 21px 17px 20px 11px;
+    border-radius: 8px;
+    color: white;
+    font-size: 26px;
+    background-color: gray;
+    margin-left: 13px;
+    text-decoration: none;
+}
+#velika-slika img {
+	width:100%;
+}
+#velika-slika {
+	margin-top:20px;
+}
+#male-slike img {
+	width: 122px;
+    margin-left: 2px;
+    border: 1px solid #CCC;
+    cursor:pointer;
+}
+#komentari {
+	padding:5px;
+}
+#komentari .komentar .user {
+	width:10%;
+	float:left;
+	padding:10px;
+}
+#komentari .komentar .user img {
+	width:100%;
+}
+#komentari .komentar .sadrzaj-komentara {
+	width:90%;
+	float:right;
+	padding:10px;
+}
+#komentari textarea {
+	width:100%;
+	height:60px;
+}
+.floatright {
+	float:right;
+}
+#error {
+	background-color:red;
+	border-radius:5px;
+	font-size:20px;
+	color:white;
+	padding:10px;
+}
+#success {
+	background-color:green;
+	border-radius:5px;
+	font-size:20px;
+	color:white;
+	padding:10px;
+}
